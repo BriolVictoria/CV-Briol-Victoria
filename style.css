@@ -1,4 +1,49 @@
 body {
+    font-family: Figtree sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+}
+
+header {
+    background-color: #19191C;
+    width: 100%;
+}
+
+.about{
+    background-color: #6B57FF;
+    padding: 10.5px 28px;
+    border-radius: 2.5em;
+}
+
+.logo {
+    width: 96px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: semi-bold;
+}
+.job {
+    font-size: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
     font-family: Helvetica, serif;
     font-size: 16px;
     color: white;
@@ -33,4 +78,4 @@ hr {
     margin-left: 45px;
     background-color: #6B57FF;
     border-radius: 2em;
-}
+}*/
