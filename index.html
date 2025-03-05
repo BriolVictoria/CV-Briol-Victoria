@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Victoria BRIOL: Projet CV</title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -9,27 +11,27 @@
 
     <header>
         <h1>Victoria Briol</h1>
-        <!--Compléter le header
-        <img src="./img/SEARCH.SVG" alt="loupe de recherche">
-        <img src="./img/BM.svg" alt="Le burger menu">
+        <!--Compléter le header-->
+        <img src="IMG/PHONE/Burger_menu.svg" alt="Le burger menu">
+        <img src="IMG/PHONE/search.svg" alt="loupe de recherche">
         <hr>
-        <p>Menu</p>-->
+        <p>Menu</p>
+        <img src="./IMG/PHONE/arrow_down.svg" alt="fleche vers le bas">
         <a class="about" href="">A propos</a>
     </header>
 
     <main>
-    <section>
-
+    <section class="about_me">
+        <img src="./IMG/PHONE/fond_move.svg" alt="fond de couleur du logo PHP">
         <div itemscope itemtype="https://schema.org/Person">
             <h2 itemprop="name">Victoria Briol</h2>
-            <p class="job" itemprop="jobTitle">Dévellopeuse web</p>
+            <p class="job" itemprop="jobTitle">Dévellopeuse <br>web</p>
         </div>
-        <p>Etudiante spécialisée en Web à HEPL</p>
-        <p>Les différents types de langagues utilisé à la réalisation de mes projets</p>
+        <p>Etudiante spécialisée en Web <br>à l'HEPL</p>
         <a href="">Mes projets</a> <!--Mettre le lien-->
+        <p>Les différents types de langagues utilisé à la réalisation de mes projets</p>
         <img class="logo" src="./IMG/COMPUTER/logo.svg" alt="logo de php avec les initials 'VB'">
-        <!--Afficher l'image de fond en SVG qui bouge-->
-        <div>
+        <div class="roll_img">
             <img class="HTML" src="./IMG/COMPUTER/html_name.svg" alt="logo du langage HTML">
             <img class="JS" src="/IMG/COMPUTER/javascript_name.svg" alt="logo du langage JavaScript">
             <img class="CSS" src="/IMG/COMPUTER/css_name.svg" alt="logo du langage CSS">
@@ -39,18 +41,20 @@
     </section>
 
 
-    <section>
+    <section class="projets">
 
         <h2>Mes projets viennent</h2>
+        <p>De la 2D</p>
         <!--Mettre déffilement 'de la 3D, du Web ou de la 2D'-->
 
         <section>
 
             <h3>Descriptions des projets</h3>
-            <a href="">Projet 3D</a>
+            <!--<a href="">Projet 3D</a>
             <a href="">Projet 2D</a>
             <a href="">Projet SMP</a>
-            <a href="">Projet graphisme</a>
+            <a href="">Projet graphisme</a>-->
+            <div class="roll_video">
             <video src="./Video/3D.mov"></video>
             <p>Reproduction d'une scéne de film pour le cours de 3D</p>
             <p>J’ai présenté mon projet 3D, inspiré d’une scène de la série Wednesday de Netflix. J’ai choisie cette scène, particulièrement le côté sombre du dortoir de Wednesday, car il était plus facile à reproduire malgré certaines difficultés avec les murs, les fenêtres et l’éclairage. Ce projet, que j’ai réalisé pendant mes vacances de Noël et mes examens, m’a permis d’apprendre de nouvelles techniques en modélisation 3D, comme l’utilisation de textures et la création d’objets. Bien que ce fut un travail long et difficile, je suis fiére du résultat qui ressemble beaucoup à l’image originale.</p>
@@ -71,47 +75,69 @@
             <p>Reproduction d’icônes pour le cours de graphisme</p>
             <p>Dans ce projet de graphisme, j’ai créé une série d'icônes inspirées de l'univers Cobra Kai. L'objectif était de capturer l’essence des personnages et des symboles clés de la série à travers des visuels épurés et impactants. En utilisant une palette de couleurs bold et des formes simples, j'ai cherché à transmettre l'énergie et l'esprit combatif de Cobra Kai, tout en rendant chaque icône facilement identifiable et reconnaissable.</p>
             <!--Mettre les 2 flêches pour déffilé-->
-
+            </div>
         </section>
 
-        <section>
+        <section class="language">
 
-            <h3>Les langages appris lors de mon apprentissage</h3>
+            <!--<h3>Les langages appris lors de mon apprentissage</h3>-->
             <p>J'utilise PHP et Laravel pour le back-end, HTML, CSS, JavaScript et TypeScript pour le front-end. WordPress pour des sites flexibles, SQL pour les bases de données, Git pour la gestion de versions, et Figma pour la conception d'interfaces. Ces outils me permettent de créer des projets web efficaces et bien réalisés.</p>
-            <div>
-                <p>PHP</p>
-                <img class="PHP" src="/IMG/COMPUTER/php_icone.svg" alt="logo de l'application PHP">
-                <p>Figma</p>
-                <img class="Figma" src="/IMG/COMPUTER/figma_icone.svg" alt="logo de l'application Figma">
-                <p>WordPress</p>
-                <img class="WordPress" src="/IMG/COMPUTER/wordpress_icone.svg" alt="logo de l'application WordPress">
-                <p>HTML</p>
-                <img class="HTML" src="/IMG/COMPUTER/html_icone.svg" alt="logo de l'application HTML">
-                <p>CSS</p>
-                <img class="CSS" src="/IMG/COMPUTER/css_icone.svg" alt="logo de l'application CSS">
-                <p>Gît</p>
-                <img class="Gît" src="/IMG/COMPUTER/git_icone.svg" alt="logo de l'application Gît">
-                <p>JavaScript</p>
-                <img class="JavaScript" src="/IMG/COMPUTER/javascript_icone.svg" alt="logo de l'application JavaScript">
-                <p>TypeScript</p>
-                <img class="TypeScript" src="/IMG/COMPUTER/typescript_icone.svg" alt="logo de l'application TypeScript">
-                <p>PHPStorm</p>
-                <img class="PHPStorm" src="/IMG/COMPUTER/phpstorm_icone.svg" alt="logo de l'application PHPStorm">
-                <p>SQL</p>
-                <img class="SQL" src="/IMG/COMPUTER/sql_icone.svg" alt="logo de l'application SQL">
+            <div class="all_languages">
+                <div class="item">
+                    <img class="PHP" src="/IMG/COMPUTER/php_icone.svg" alt="logo de l'application PHP">
+                    <p>PHP</p>
+                </div>
+                <div class="item">
+                    <img class="Figma" src="/IMG/COMPUTER/figma_icone.svg" alt="logo de l'application Figma">
+                    <p>Figma</p>
+                </div>
+                <div class="item">
+                    <img class="WordPress" src="/IMG/COMPUTER/wordpress_icone.svg" alt="logo de l'application WordPress">
+                    <p>WordPress</p>
+                </div>
+                <div class="item">
+                    <img class="HTML" src="/IMG/COMPUTER/html_icone.svg" alt="logo de l'application HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="item">
+                    <img class="CSS" src="/IMG/COMPUTER/css_icone.svg" alt="logo de l'application CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="item">
+                    <img class="Gît" src="/IMG/COMPUTER/git_icone.svg" alt="logo de l'application Gît">
+                    <p>Gît</p>
+                </div>
+                <div class="item">
+                    <img class="JavaScript" src="/IMG/COMPUTER/javascript_icone.svg" alt="logo de l'application JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="item">
+                    <img class="TypeScript" src="/IMG/COMPUTER/typescript_icone.svg" alt="logo de l'application TypeScript">
+                    <p>TypeScript</p>
+                </div>
+                <div class="item">
+                    <img class="PHPStorm" src="/IMG/COMPUTER/phpstorm_icone.svg" alt="logo de l'application PHPStorm">
+                    <p>PHPStorm</p>
+                </div>
+                <div class="item">
+                    <img class="SQL" src="/IMG/COMPUTER/sql_icone.svg" alt="logo de l'application SQL">
+                    <p>SQL</p>
+                </div>
+
                 <!--Mettre le fond mauve-->
                 <!--changer les alt-->
             </div>
 
         </section>
 
-        <section>
+        <section class="experience">
 
             <h3>Descriptions de mes expériences professionnelles</h3>
             <a href="">Philmode</a>
             <a href="">Baby-sitting</a>
             <a href="">LWS</a>
 
+            <div class="roll_video">
             <video src="./Video/JOB.mov"></video>
             <p>Descriptions de mon job d’étudiant chez Philmode</p>
             <p>En tant que vendeuse chez Philmode, j’accueillais et conseillais les clients, les aidant à trouver des tenues adaptées à leurs besoins. J’étais également impliquée dans la gestion des stocks, l’étiquetage des produits et la mise en avant des nouvelles collections. Ce poste m’a permis de développer mes compétences en service client et en vente.</p>
@@ -130,12 +156,12 @@
             <p>Lors de mon stage chez LWS, j'ai découvert le fonctionnement d'une entreprise spécialisée dans la création de sites web. J'ai pu assister l’équipe dans la gestion de projets, effectuer des recherches sur des tendances web et participer à la création de contenus pour des sites clients. Ce stage m’a permis d’acquérir des compétences en développement web et en gestion de projet, tout en apprenant à travailler dans un environnement dynamique.</p>
             <!--Mettre la suite du texte-->
             <!--Mettre les 2 flêches pour déffilé-->
-
+    </div>
         </section>
 
     </section>
 
-    <section>
+    <section class="people">
 
         <h3>Avis des formatteurs</h3>
 
@@ -175,7 +201,7 @@
         <p>Vous avez besoin d’une étudiante pour faire un stage dans votre entreprise?</p>
         <a href="">Contactez-moi</a>
         <p>Contactez-moi si dessous</p>
-        <img class="logo" src="./IMG/COMPUTER/logo_cotactez_moi.svg" alt="logo de php avec les initials 'VB'">
+        <img class="logo2" src="./IMG/COMPUTER/logo_cotactez_moi.svg" alt="logo de php avec les initials 'VB'">
         <img src="/IMG/COMPUTER/logo_cotactez_moi.svg" alt="Image de fond avec des carrées de différentes couleur">
 
     </section>
