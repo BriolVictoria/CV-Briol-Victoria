@@ -15,6 +15,12 @@
     --white-color: #FFFFFF;
     --degrade-color-1: #7F0FB5;
     --degrade-color-2: #450D81;
+    --form-color: #303033;
+    --form-text-color: #7D7D7E;
+    --hr-footer: #272729;
+    --text-ressource-color: #BBBBBC;
+    --text-ressources: #A2A2A3;
+    --image-ressource-color: #CBCBCB;
 }
 
 /*fin variables de couleurs*/
@@ -43,6 +49,12 @@
     font-family: "Figtree";
     src: url(./Font/static/Figtree-Bold.ttf);
     font-weight: 700;
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url(./Font/static/Figtree-Medium.ttf);
+    font-weight: 500;
 }
 
 /*fin des imports de polices*/
@@ -276,4 +288,289 @@ article>p {
 article>p:nth-of-type(2) {
     font-weight: 400;
     font-size: 16px;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact>h3 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-left: 16px;
+    position: absolute;
+    margin-top: 19px;
+    top: 4.7em;
+}
+
+.contact>p:first-of-type {
+    font-weight: 300;
+    font-size: 24px;
+    margin-left: 16px;
+    position: absolute;
+    top: 6.8em;
+}
+
+.contact>a {
+    color: var(--black-color);
+    background-color: var(--button-project-color);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10.5px 11px;
+    border-radius: 37px;
+    margin-left: 16px;
+    position: absolute;
+    top: 19.7em;
+}
+
+.contact>p:nth-of-type(2) {
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: 20px;
+    position: absolute;
+    top: 27.2em;
+}
+
+.contact>.logo2 {
+    margin-left: 16px;
+    position: absolute;
+    top: 3.3em;
+}
+
+.position>img:nth-of-type(2) {
+    margin-top: 64px;
+    margin-bottom: 61px;
+}
+
+.footer>h3 {
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 65px;
+    margin-left: 12px;
+    margin-bottom: 23px;
+}
+
+.footer>a {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 41px;
+    margin-left: 12px;
+    background-color: var(--button-project-color);
+    color: var(--black-color);
+    border-radius: 37px;
+    display: inline-block;
+}
+
+.footer>h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 23px;
+    margin-bottom: 27px;
+    margin-left: 12px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14px;
+}
+
+.container p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 14px;
+}
+
+.faq>h3 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 12px;
+    margin-bottom: 28px;
+    margin-top: 45px;
+}
+
+.faq>p:nth-of-type(1){
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 14px;
+}
+
+.faq>p:nth-of-type(2){
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 14px;
+}
+
+.faq>p:nth-of-type(3){
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 14px;
+}
+
+.faq>p span {
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 12px;
+}
+
+.form>p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 16.5px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    margin-left: 16px;
+}
+
+.form{
+    background-color: var(--header-color);
+    padding-top: 42px;
+}
+
+div>label {
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--form-text-color);
+}
+
+div>input {
+    display: block;
+    margin-left: 16px;
+    width: 357px;
+    height: 40px;
+    background-color: var(--form-color);
+    border: none;
+    color: var(--white-color);
+}
+
+.message>label {
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--form-text-color);
+}
+
+.message>textarea {
+    display: block;
+    margin-left: 16px;
+    width: 357px;
+    height: 154px;
+    background-color: var(--form-color);
+    border: none;
+}
+
+.ressource>hr:nth-of-type(1) {
+    margin-top: 220px;
+    color: var(--hr-footer);
+}
+
+.ressource>h4 {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--text-ressource-color);
+    margin-left: 16px;
+}
+
+.ressource>a:nth-of-type(1) {
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--text-ressources);
+    margin-left: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.ressource>a:nth-of-type(2) {
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--text-ressources);
+    margin-left: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
+}
+.ressource>a:nth-of-type(3) {
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--text-ressources);
+    margin-left: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
+}
+.ressource>a:nth-of-type(4) {
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--text-ressources);
+    margin-left: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.ressource>hr:nth-of-type(2) {
+    margin-top: 32px;
+    color: var(--hr-footer);
+}
+
+.image_contact {
+    margin-left: 16px;
+}
+
+.image_contact :nth-of-type(2) {
+    margin-left: 24px;
+}
+
+.image_contact :nth-of-type(3) {
+    margin-left: 24px;
+}
+
+.image_contact :nth-of-type(4) {
+    margin-left: 24px;
+}
+
+.image_contact :nth-of-type(5) {
+    margin-left: 24px;
+}
+
+.image_contact :nth-of-type(6) {
+    margin-left: 24px;
+}
+
+.text_ressources{
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--text-ressources);
+    margin-left: 15px;
+    margin-top: 11px;
+    display: inline-block;
+}
+
+.image_ressource a{
+    color: var(--image-ressource-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-top: 23px;
+    margin-bottom: 26px;
+}
+
+.image_ressource img {
+    margin-left: 59px;
+}
+
+.copyright {
+    font-weight: 300;
+    font-size: 13px;
+    color: var(--text-ressources);
+    margin-left: 15px;
 }
